@@ -1,0 +1,148 @@
+请帮我在其中增加卡片的css代码
+/* 导航栏样式 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8; /* 米白色 */
+  padding: 20px;
+}
+  
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+  
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+}
+  
+.navbar-nav li {
+  margin-right: 10px;
+}
+  
+.navbar-nav a {
+text-decoration: none;
+color: #fff;
+}
+
+/* 文本输入框样式 */
+.input {
+  border: 1px solid #ff9292; /* 深灰色 */
+  background-color: #ffeaea; /* 米白色 */
+  padding: 10px;
+  color: #ff8400; /* 深灰色 */
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ffa044; /* 橙色系（获得焦点时） */
+}
+  
+.navbar a {
+  color: #f54739; /* 橙色系 */
+  text-decoration: none;
+  margin-right: 10px;
+}
+  
+.navbar a:hover {
+  color: #ff8f82; /* 橙色系（鼠标悬停时） */
+}
+  
+/* 页面主体背景样式 */
+body {
+  background-color: #fffff8; /* 白色 */
+}
+  
+/* 标题样式 */
+h1 {
+  color: #f54739; /* 橙色系 */
+}
+  
+/* 文本样式 */
+p {
+  color: #a03d68; /* 粉色系 */
+}
+
+/* 链接样式 */
+a {
+  color: #f58439; /* 橙色系 */
+  text-decoration: none;
+}
+  
+a:hover {
+  color: #ffb0a7; /* 橙色系（鼠标悬停时） */
+}
+  
+/* 输入框样式 */
+.input {
+  border: 1px solid #f54739; /* 橙色系 */
+  padding: 10px;
+  color: #f54739; /* 橙色系 */
+}
+  
+.input:focus {
+  outline: none;
+  border-color: #ff8f82; /* 橙色系（获得焦点时） */
+}
+  
+/* 列表样式 */
+ul {
+  list-style-type: none;
+}
+  
+ul li {
+  color: #ff63a6; /* 粉色系 */
+  margin-bottom: 5px;
+}
+  
+/* 按钮样式 */
+.button {
+  background-color: #ff7429; /* 橙色系 */
+  color: #ffffff; /* 白色 */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #ff6060; /* 橙色系（鼠标悬停时） */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #e7e7e7;
+}
+
+img {
+  width: 300px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #9a9a9a;
+}
+
+.card {
+  background-color: #ffeaea; /* 米白色 */
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px #e7e7e7;
+}
+
+/* MIT License */
